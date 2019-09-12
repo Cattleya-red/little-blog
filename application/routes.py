@@ -5,6 +5,7 @@ from flask import render_template
 app = Flask(__name__)
 
 
+#  添加注释
 @app.route('/index')
 def index():
     user = {'username': 'Alice'}
